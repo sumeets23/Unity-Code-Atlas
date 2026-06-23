@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="studio-root" class="studio-root">
+        <ui:VisualElement name="top-toolbar" class="top-toolbar">
+            <ui:VisualElement class="title-block">
+                <ui:Label text="Unity Code Atlas" class="product-title" />
+                <ui:Label text="Visual discovery for the open Unity scene" class="product-subtitle" />
+            </ui:VisualElement>
+            <ui:VisualElement class="module-tabs">
+                <ui:Button name="architecture-module-button" text="Code Map" class="module-tab selected" />
+                <ui:Button name="execution-module-button" text="Execution Flow" class="module-tab" />
+            </ui:VisualElement>
+            <ui:VisualElement class="toolbar-actions">
+                <ui:TextField name="global-search" class="global-search" />
+                <ui:Button name="scan-button" text="Scan Scene" class="primary-button" />
+                <ui:Button name="record-flow-button" text="Analyze Flow" class="secondary-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="main-workbench" class="main-workbench">
+            <ui:VisualElement name="left-panel" class="left-panel" />
+            <ui:VisualElement name="center-panel" class="center-panel" />
+            <ui:VisualElement name="right-panel" class="right-panel" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
