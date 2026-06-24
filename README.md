@@ -1,4 +1,5 @@
 # Unity Code Atlas
+<img width="3837" height="2045" alt="Screenshot 2026-06-23 124658" src="https://github.com/user-attachments/assets/d3244609-928c-4cb8-8d11-dbcfdcfef725" />
 
 Unity Code Atlas is a Unity Editor tool for visual exploration of scene architecture and source-backed execution flow.
 
